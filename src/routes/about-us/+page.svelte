@@ -17,6 +17,27 @@
     { color: "gray-200", value: "Transparencia" },
     { color: "purple-700", value: "Innovacion" },
   ];
+
+  const team = [
+    {
+      name: 'Maria camila fajardo',
+      charge: 'Gerente',
+      summary: '',
+      photo: ''
+    },
+    {
+      name: 'Juan Sebastian torres parra',
+      charge: 'Desarrollador',
+      summary: 'Loremps',
+      photo: ''
+    },
+    {
+      name: 'Juan Sebastian',
+      charge: 'Contador',
+      summary: 'Loremps',
+      photo: ''
+    },
+  ]
 </script>
 
 <svelte:head>
@@ -126,6 +147,29 @@
   </div>
   <small>Carre 20 #36 - 04 Colombia (Yopal - Casanare)</small>
 </div>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+    </div>
+    <div class="flex flex-wrap justify-center -m-4">
+      {#each team as { name, summary, photo, charge }}
+      <div class="p-4 max-w-md">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">{name}</h2>
+            <h3 class="text-gray-500 mb-3">{charge}</h3>
+            <p class="mb-4">{summary}</p>
+          </div>
+        </div>
+      </div>
+    {/each}
+
+    </div>
+  </div>
+</section>
 <div class="relative w-full h-96 mt-10 opacity-40 hover:opacity-100">
   <iframe
     class="absolute top-0 left-0 w-full h-full"
