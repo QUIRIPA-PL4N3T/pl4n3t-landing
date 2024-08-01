@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "services": "Services",
+    "about_us": "About us",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer": {
+    "company": "Company",
+    "contact": "Contact",
+    "about_us": "About us",
+    "blog": "Blog",
+    "legacy_and_help": "Legacy & help",
+    "privacy_policy": "Privacy policy",
+    "date": "Request date",
+    "platform": "Platform"
+  },
+  "home": {
+    "hero": {
+      "title": "Convierte tu Empresa en",
+      "resume": "En PL4N3T nuestra meta es convertir a nuestro clientes en empresa Net Zero, realizamos acompañamiento en cuantificación, reducción y acreditación en huella de carbono",
+      "register": "Registrate",
+      "request_date": "Solicitar cita"
+    },
+    "features": [
+      {
+        "title": "GHG Information Management",
+        "summary": "We help you manage all your Greenhouse Gas (GHG) emissions information effectively and accurately. Our goal is to provide a comprehensive system to identify, quantify, monitor, report and reduce your organization's GHG emissions.",
+        "how": [
+          "We review all your operations to identify and classify sources of emissions using standards such as the GHG Protocol and ISO 14064-1.",
+          "We determine your organization's specific needs in terms of GHG management.",
+          "We create and adapt specific formats for the collection, validation and storage of emissions data.",
+          "We train your team so they can use the system efficiently and understand the importance of GHG management.",
+          "We provide manuals and guidelines to ensure the correct and continuous use of the system.",
+          "We offer tools for continuous monitoring of emissions.",
+          "We provide ongoing support to solve problems and optimize the system.",
+          "We conduct periodic internal audits to ensure that the system is working properly and meeting the established objectives."
+        ],
+        "benefits": [
+          "Total Control: Monitor and record all your emissions in one place, facilitating information management and decision making.",
+          "It provides a clear picture of how to manage GHG emissions."
+        ]
+      },
+      {
+        "title": "Development of GHG Inventory / Carbon footprint reporting",
+        "summary": "We perform a detailed diagnosis of all your Greenhouse Gas (GHG) emissions so you know exactly where they come from and how to reduce them. We provide a solid basis for the development of effective reduction strategies.",
+        "how": [
+          "We collect comprehensive information on all your operational activities and processes.",
+          "We use primary and secondary data to ensure complete coverage of all sources of emissions.",
+          "We use international standards such as the GHG Protocol and ISO 14064-1 to classify and analyze your emissions into Scopes 1, 2 and 3.",
+          "We break down emissions by category and process, providing a clear view of your carbon footprint.",
+          "We provide a comprehensive report including GHG inventory and detailed analysis.",
+          "We offer specific recommendations to reduce emissions and improve operational efficiency."
+        ],
+        "benefits": [
+          "Clear Vision: Identify all your sources of emissions and understand their impact.",
+          "Effective Strategies: Baseline for developing reduction plans based on sound data and detailed analysis."
+        ]
+      }
+    ],
+    "global": {
+      "question": "¿Sabías que?",
+      "title": "Actualmente en el mundo se genera alrededor de 15B de Gases de efecto invernadero",
+      "text": "El compromiso con el planeta es reducir y mitigar la huella de carbono, PL4N3T apoya a nuestras empresas en ser NETZERO",
+      "data": [
+        {
+          "icon": "mdi:server-outline",
+          "title": "99.99% on",
+          "summary": "App online & offline"
+        },
+        {
+          "icon": "mdi:molecule-co2",
+          "title": "600M CO2",
+          "summary": "Contabilidad total de nuestras empresas"
+        },
+        {
+          "icon": "mdi:earth",
+          "title": "10+ Countries",
+          "summary": "Estamos a nivel internacional"
+        },
+        {
+          "icon": "mdi:trending-down",
+          "title": "10M Reducciones",
+          "summary": "Nuestros planes de mitigación logran 1M al año"
+        }
+      ]
+    },
+    "memberships": {
+      "trial": {
+        "title": "Inicia tu prueba gratuito hoy",
+        "text": "Prueba nuestra plataforma por una membresia FREE, sin ingreso de tarjetas",
+        "button": "Iniciar ahorar"
+      },
+      "title": "Nuestros planes para tu empresa",
+      "summary": "Mira nuestros planes disponibles para gestionar, calcular y mitigar tu huella de carbono. Inicia nuestro plan gratuito."
+    },
+    "ceo": {
+      "quote": "Brutas, pero dicididas",
+      "person": "Maria Camila Fajardo",
+      "subject": "CEO de Quiripa"
+    }
+  },
+  "newsletter": {
+    "title": "Subscribete a nuestro newsletter.",
+    "summary": "Generamos contenido mensuales acerca de estandares, notificas de huella de carbono, actualizaciones de nuestras actividades, y nuestros clientes, buscamos mantenerte actualizado.",
+    "details": [
+      {
+        "icon": "mdi:calendar-month-outline",
+        "name": "Articulos mensuales",
+        "text": "Enterate con nosotros de todad nuestras actualizaciones, noticias, investigaciones."
+      },
+      {
+        "icon": "mdi:hand-back-left-outline",
+        "name": "No spam",
+        "text": "No compartimos nuestros datos a terceros, no generamos contenido de spam"
+      }
+    ]
+  },
+  "buy": "Buy",
+  "subscribe": "subscribe"
+}

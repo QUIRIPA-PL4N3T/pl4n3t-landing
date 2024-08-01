@@ -1,11 +1,12 @@
 <script>
   import logo from "$lib/images/logo.png";
+  import { _ } from 'svelte-i18n'
 
   export const menu = [
-    { label: "Servicios", link: "services" },
-    { label: "Nosotros", link: "about-us" },
-    { label: "Blog", link: "blog" },
-    { label: "Contacto", link: "contact" },
+    { label: $_('nav.services'), link: "services" },
+    { label: $_('nav.about_us'), link: "about-us" },
+    { label: $_('nav.blog'), link: "blog" },
+    { label: $_('nav.contact'), link: "contact" },
   ];
 </script>
 
