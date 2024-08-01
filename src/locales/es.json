@@ -148,10 +148,47 @@
       "summary": "Mira nuestros planes disponibles para gestionar, calcular y mitigar tu huella de carbono. Inicia nuestro plan gratuito."
     },
     "ceo": {
-      "quote": "Brutas, pero dicididas",
+      "summary": "Brutas, pero dicididas",
+      "person": "Maria Camila Fajardo",
+      "position": "CEO de Quiripa"
+    }
+  },
+  "services": {
+    "masterclass": {
+      "subtitle": "Inicia ahora, aprovecha nuestras master classes",
+      "title": "Master classes para empresas"
+    },
+    "quote": {
+      "summary": "Brutas, pero dicididas",
       "person": "Maria Camila Fajardo",
       "subject": "CEO de Quiripa"
     }
+  },
+  "about_us": {
+    "masterclass": {
+      "subtitle": "Inicia ahora, aprovecha nuestras master classes",
+      "title": "Master classes para empresas"
+    },
+    "quote": {
+      "summary": "Brutas, pero dicididas",
+      "person": "Maria Camila Fajardo",
+      "subject": "CEO de Quiripa"
+    },
+    "vision_summary": "Contribuir activamente a la construcción de un <b>futuro sostenible</b>         mediante el desarrollo de soluciones         <b>integrales basadas en tecnología e innovación</b> para la mitigación de         la huella de carbono, hídrica y plástica.",
+    "mission_summary": "Para el 2030 ser <b>           líderes en soluciones tecnológicas integrales para impulsar la           sostenibilidad         </b> de las organizaciones en Colombia y América Latina.",
+    "founded": "Fundada",
+    "values": "Valores coorporativos",
+    "integrity": "Integridad",
+    "commitment": "Compromiso",
+    "respect": "Respeto",
+    "collaboration": "Colaboracion",
+    "transparency": "Transparencia",
+    "innovation": "Innovacion",
+    "team": {
+      "title": "Nuestro Equipo"
+    },
+    "vision": "Vision",
+    "mission": "Mision"
   },
   "newsletter": {
     "title": "Subscribete a nuestro newsletter.",
@@ -170,5 +207,30 @@
     ]
   },
   "buy": "Comprar",
-  "subscribe": "Subscribirse"
+  "request_date": "Solicitar cita",
+  "subscribe": "Subscribirse",
+  "service": {
+    "benefits": "Beneficios",
+    "how_do": "Como lo hacemos ?"
+  },
+  "position": {
+    "ceo": "CEO",
+    "developer": "Desarrollador",
+    "counter": "Contador"
+  },
+  "read_more": "Leer mas...",
+  "contact": {
+    "title": "Contactanos",
+    "summary": "Nuestra misión es brindarte una experiencia de búsqueda segura, privada y personalizada. Estamos aquí para escucharte y mejorar nuestros servicios según tus necesidades.",
+    "form": {
+      "name": "Nombres",
+      "email": "Correo electronico",
+      "phone": "Celular",
+      "message": "Mensaje",
+      "action": "Enviar mensaje",
+      "subject": "Asunto",
+      "success": "Se ha enviado tu mensaje!",
+      "error": "Ha ocurrido un error, espera un momento"
+    }
+  }
 }

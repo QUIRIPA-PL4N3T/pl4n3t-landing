@@ -1,17 +1,16 @@
 <script>
   import Icon from "@iconify/svelte";
-  import { _ } from 'svelte-i18n'
-
+  import { _ } from "svelte-i18n";
 </script>
 
 <section class="bg-gray-50 dark:bg-gray-800">
   <div
     class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6"
   >
-    {#each $_('home.features') as { title, summary, img, how }, i}
-      <div class="flex justify-between ...">
+    {#each $_("home.features") as { title, summary, img, how }, i}
+      <div class="mx-auto flex justify-between">
         <div
-          class={`${(i + 1) % 2 === 0 ? "right-0" : "order-last"} w-full h-full mb-4 mx-2 rounded-lg lg:mb-0 lg:flex`}
+          class={`${(i + 1) % 2 === 0 ? "right-0" : "order-last"} hidden w-full h-full mb-4 mx-2 rounded-lg lg:mb-0 lg:flex`}
         >
           <img
             class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
@@ -42,9 +41,7 @@
               </li>
             {/each}
           </ul>
-          <p class="mb-8 font-light lg:text-xl">
-            Saber mas
-          </p>
+          <a class="mb-8 font-light lg:text-xl" href={"/services/#" + title}>{$_("read_more")}</a>
         </div>
       </div>
     {/each}

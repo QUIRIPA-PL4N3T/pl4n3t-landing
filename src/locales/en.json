@@ -1,67 +1,120 @@
 {
   "nav": {
     "services": "Services",
-    "about_us": "About us",
+    "about_us": "About Us",
     "contact": "Contact",
     "blog": "Blog"
   },
   "footer": {
     "company": "Company",
     "contact": "Contact",
-    "about_us": "About us",
+    "about_us": "About Us",
     "blog": "Blog",
-    "legacy_and_help": "Legacy & help",
-    "privacy_policy": "Privacy policy",
-    "date": "Request date",
+    "legacy_and_help": "Legal & Help",
+    "privacy_policy": "Privacy Policy",
+    "date": "Request Appointment",
     "platform": "Platform"
   },
   "home": {
     "hero": {
-      "title": "Convierte tu Empresa en",
-      "resume": "En PL4N3T nuestra meta es convertir a nuestro clientes en empresa Net Zero, realizamos acompañamiento en cuantificación, reducción y acreditación en huella de carbono",
-      "register": "Registrate",
-      "request_date": "Solicitar cita"
+      "title": "Turn Your Company Into",
+      "resume": "At PL4N3T, our goal is to turn our clients into Net Zero companies. We provide support in carbon footprint quantification, reduction, and accreditation.",
+      "register": "Register",
+      "request_date": "Request Appointment"
     },
     "features": [
       {
         "title": "GHG Information Management",
-        "summary": "We help you manage all your Greenhouse Gas (GHG) emissions information effectively and accurately. Our goal is to provide a comprehensive system to identify, quantify, monitor, report and reduce your organization's GHG emissions.",
+        "summary": "We help you manage all the information about your Greenhouse Gas (GHG) emissions effectively and accurately. Our goal is to provide a comprehensive system that allows you to identify, quantify, monitor, report, and reduce your organization's GHG emissions.",
         "how": [
-          "We review all your operations to identify and classify sources of emissions using standards such as the GHG Protocol and ISO 14064-1.",
+          "We review all your operations to identify and classify emission sources using standards such as the GHG Protocol and ISO 14064-1.",
           "We determine your organization's specific needs in terms of GHG management.",
-          "We create and adapt specific formats for the collection, validation and storage of emissions data.",
-          "We train your team so they can use the system efficiently and understand the importance of GHG management.",
-          "We provide manuals and guidelines to ensure the correct and continuous use of the system.",
-          "We offer tools for continuous monitoring of emissions.",
-          "We provide ongoing support to solve problems and optimize the system.",
-          "We conduct periodic internal audits to ensure that the system is working properly and meeting the established objectives."
+          "We create and adapt specific formats for the collection, validation, and storage of emission data.",
+          "We train your team to use the system efficiently and understand the importance of GHG management.",
+          "We provide manuals and guides to ensure the correct and continuous use of the system.",
+          "We offer tools for continuous emission monitoring.",
+          "We provide constant support to resolve issues and optimize the system.",
+          "We conduct periodic internal audits to ensure the system works correctly and meets the established objectives."
         ],
         "benefits": [
-          "Total Control: Monitor and record all your emissions in one place, facilitating information management and decision making.",
-          "It provides a clear picture of how to manage GHG emissions."
+          "Total Control: Monitor and record all your emissions in one place, making information management and decision-making easier.",
+          "It provides a clear overview of how to manage GHG emissions."
         ]
       },
       {
-        "title": "Development of GHG Inventory / Carbon footprint reporting",
-        "summary": "We perform a detailed diagnosis of all your Greenhouse Gas (GHG) emissions so you know exactly where they come from and how to reduce them. We provide a solid basis for the development of effective reduction strategies.",
+        "title": "GHG Inventory Development / Carbon Footprint Reporting",
+        "summary": "We conduct a detailed diagnosis of all your Greenhouse Gas (GHG) emissions so you know exactly where they come from and how to reduce them. We provide a solid foundation for developing effective reduction strategies.",
         "how": [
-          "We collect comprehensive information on all your operational activities and processes.",
-          "We use primary and secondary data to ensure complete coverage of all sources of emissions.",
-          "We use international standards such as the GHG Protocol and ISO 14064-1 to classify and analyze your emissions into Scopes 1, 2 and 3.",
-          "We break down emissions by category and process, providing a clear view of your carbon footprint.",
-          "We provide a comprehensive report including GHG inventory and detailed analysis.",
+          "We collect comprehensive information about all your operational activities and processes.",
+          "We use primary and secondary data to ensure full coverage of all emission sources.",
+          "We use international standards such as the GHG Protocol and ISO 14064-1 to classify and analyze your emissions in Scopes 1, 2, and 3.",
+          "We break down emissions by categories and processes, providing a clear view of your carbon footprint.",
+          "We provide a comprehensive report that includes the GHG inventory and detailed analyses.",
           "We offer specific recommendations to reduce emissions and improve operational efficiency."
         ],
         "benefits": [
-          "Clear Vision: Identify all your sources of emissions and understand their impact.",
-          "Effective Strategies: Baseline for developing reduction plans based on sound data and detailed analysis."
+          "Clear Vision: Identify all your emission sources and understand their impact.",
+          "Effective Strategies: Baseline for developing reduction plans based on solid data and detailed analysis."
+        ]
+      },
+      {
+        "title": "Decarbonization Plan",
+        "summary": "We create personalized plans that align your business operations with global sustainability goals, significantly reducing your GHG emissions.",
+        "how": [
+          "We use your GHG inventory to identify mitigation options and areas for improvement.",
+          "We assess the environmental impact of your activities and processes.",
+          "We use methodologies like Science Based Targets (SBTi) to set reduction targets aligned with climate science.",
+          "We create an action plan with short, medium, and long-term measures, detailing the specific actions needed.",
+          "We assist in implementing optimized practices to reduce emissions.",
+          "We monitor your progress and adjust strategies as necessary.",
+          "We provide periodic reports on progress and improvements made."
+        ],
+        "benefits": [
+          "Real Reduction: Implement effective strategies to decrease your emissions.",
+          "Guaranteed Sustainability: Meet your short, medium, and long-term sustainability goals."
+        ]
+      },
+      {
+        "title": "Neutrality Declaration",
+        "summary": "We help you design and implement a program that allows you to officially declare your carbon-neutral status, demonstrating your commitment to sustainability.",
+        "how": [
+          "We advise you on the process of identifying and selecting accredited carbon offset projects that align with your goals.",
+          "We guide you in purchasing carbon credits to offset emissions that cannot be directly reduced.",
+          "We organize and prepare all the necessary documentation for the certification audit.",
+          "We prepare a neutrality declaration that meets the requirements of the selected standard.",
+          "We coordinate with an accredited external verifier to validate your neutrality declaration and underlying data.",
+          "We publish your carbon neutrality declaration, including all details of emissions, reductions, and offsets, as well as external validation."
+        ],
+        "benefits": [
+          "Obtain your carbon-neutral certification with international standards.",
+          "Demonstrate your commitment to the environment and improve your public image.",
+          "Complete support during the audit, ensuring a smooth process.",
+          "Differentiate yourself in the market as a responsible and committed company to sustainability."
+        ]
+      },
+      {
+        "title": "Carbon Neutrality Support",
+        "summary": "We accompany you throughout the audit process for carbon neutrality certification, ensuring that you meet all necessary requirements and standards.",
+        "how": [
+          "We organize and review all the necessary documentation for the audit.",
+          "We prepare your team for the audit, ensuring they understand the requirements and processes.",
+          "We assist in selecting a suitable and recognized certification entity.",
+          "We coordinate with the certification entity to schedule the audit and ensure a smooth process.",
+          "We provide advice and technical support at every stage of the audit process.",
+          "We address any questions or concerns that arise during the process.",
+          "We facilitate compliance with the certification entity's requirements.",
+          "We ensure that all documentation and procedures meet the necessary standards for successful certification."
+        ],
+        "benefits": [
+          "Specialized technical support at every stage of the process.",
+          "Facilitates obtaining your carbon neutrality certification."
         ]
       }
     ],
     "global": {
-      "question": "¿Sabías que?",
-      "title": "Actualmente en el mundo se genera alrededor de 15B de Gases de efecto invernadero",
-      "text": "El compromiso con el planeta es reducir y mitigar la huella de carbono, PL4N3T apoya a nuestras empresas en ser NETZERO",
+      "question": "Did you know?",
+      "title": "Currently, around 15B Greenhouse Gases are generated worldwide",
+      "text": "Our commitment to the planet is to reduce and mitigate the carbon footprint. PL4N3T supports our companies in becoming NETZERO",
       "data": [
         {
           "icon": "mdi:server-outline",
@@ -71,51 +124,113 @@
         {
           "icon": "mdi:molecule-co2",
           "title": "600M CO2",
-          "summary": "Contabilidad total de nuestras empresas"
+          "summary": "Total accounting of our companies"
         },
         {
           "icon": "mdi:earth",
           "title": "10+ Countries",
-          "summary": "Estamos a nivel internacional"
+          "summary": "We are internationally present"
         },
         {
           "icon": "mdi:trending-down",
-          "title": "10M Reducciones",
-          "summary": "Nuestros planes de mitigación logran 1M al año"
+          "title": "10M Reductions",
+          "summary": "Our mitigation plans achieve 1M per year"
         }
       ]
     },
     "memberships": {
       "trial": {
-        "title": "Inicia tu prueba gratuito hoy",
-        "text": "Prueba nuestra plataforma por una membresia FREE, sin ingreso de tarjetas",
-        "button": "Iniciar ahorar"
+        "title": "Start Your Free Trial Today",
+        "text": "Try our platform with a FREE membership, no credit card required",
+        "button": "Start Now"
       },
-      "title": "Nuestros planes para tu empresa",
-      "summary": "Mira nuestros planes disponibles para gestionar, calcular y mitigar tu huella de carbono. Inicia nuestro plan gratuito."
+      "title": "Our Plans for Your Company",
+      "summary": "Check out our available plans to manage, calculate, and mitigate your carbon footprint. Start our free plan."
     },
     "ceo": {
-      "quote": "Brutas, pero dicididas",
+      "summary": "Bold but Determined",
       "person": "Maria Camila Fajardo",
-      "subject": "CEO de Quiripa"
+      "position": "CEO of Quiripa"
     }
   },
+  "services": {
+    "masterclass": {
+      "subtitle": "Start now, take advantage of our master classes",
+      "title": "Master Classes for Companies"
+    },
+    "quote": {
+      "summary": "Bold but Determined",
+      "person": "Maria Camila Fajardo",
+      "subject": "CEO of Quiripa"
+    }
+  },
+  "about_us": {
+    "masterclass": {
+      "subtitle": "Start now, take advantage of our master classes",
+      "title": "Master Classes for Companies"
+    },
+    "quote": {
+      "summary": "Bold but Determined",
+      "person": "Maria Camila Fajardo",
+      "subject": "CEO of Quiripa"
+    },
+    "vision_summary": "Actively contribute to building a <b>sustainable future</b> by developing <b>integral solutions based on technology and innovation</b> for the mitigation of the carbon, water, and plastic footprints.",
+    "mission_summary": "By 2030, be <b>leaders in integral technological solutions to drive sustainability</b> of organizations in Colombia and Latin America.",
+    "founded": "Founded",
+    "values": "Corporate Values",
+    "integrity": "Integrity",
+    "commitment": "Commitment",
+    "respect": "Respect",
+    "collaboration": "Collaboration",
+    "transparency": "Transparency",
+    "innovation": "Innovation",
+    "team": {
+      "title": "Our Team"
+    },
+    "vision": "Vision",
+    "mission": "Mission"
+  },
   "newsletter": {
-    "title": "Subscribete a nuestro newsletter.",
-    "summary": "Generamos contenido mensuales acerca de estandares, notificas de huella de carbono, actualizaciones de nuestras actividades, y nuestros clientes, buscamos mantenerte actualizado.",
+    "title": "Subscribe to our newsletter.",
+    "summary": "We generate monthly content about standards, carbon footprint news, updates on our activities, and our clients. We aim to keep you updated.",
     "details": [
       {
         "icon": "mdi:calendar-month-outline",
-        "name": "Articulos mensuales",
-        "text": "Enterate con nosotros de todad nuestras actualizaciones, noticias, investigaciones."
+        "name": "Monthly Articles",
+        "text": "Stay informed with all our updates, news, and research."
       },
       {
         "icon": "mdi:hand-back-left-outline",
-        "name": "No spam",
-        "text": "No compartimos nuestros datos a terceros, no generamos contenido de spam"
+        "name": "No Spam",
+        "text": "We do not share our data with third parties and do not generate spam content."
       }
     ]
   },
   "buy": "Buy",
-  "subscribe": "subscribe"
+  "request_date": "Request Appointment",
+  "subscribe": "Subscribe",
+  "service": {
+    "benefits": "Benefits",
+    "how_do": "How Do We Do It?"
+  },
+  "position": {
+    "ceo": "CEO",
+    "developer": "Developer",
+    "counter": "Accountant"
+  },
+  "read_more": "Read More...",
+  "contact": {
+    "title": "Contact Us",
+    "summary": "Our mission is to provide you with a safe, private, and personalized search experience. We are here to listen to you and improve our services according to your needs.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "action": "Send Message",
+      "subject": "Subject",
+      "success": "Your message has been sent!",
+      "error": "An error has occurred, please wait a moment"
+    }
+  }
 }

@@ -5,7 +5,7 @@
   export const menu = [
     { label: $_('nav.services'), link: "services" },
     { label: $_('nav.about_us'), link: "about-us" },
-    { label: $_('nav.blog'), link: "blog" },
+    // { label: $_('nav.blog'), link: "blog" },
     { label: $_('nav.contact'), link: "contact" },
   ];
 </script>

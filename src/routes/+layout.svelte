@@ -2,6 +2,7 @@
   import Header from "$components/layout/Header.svelte";
   import Footer from "$components/layout/Footer.svelte";
   import "../app.css";
+
   import {
     addMessages,
     init,

@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
 		"svelte-i18n": "^4.0.0"
 	}
 }
