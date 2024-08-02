@@ -74,12 +74,11 @@
           </a>
         </div>
       </div>
-      <div class={`${props.left ? "right-0" : "order-last"} w-[28rem] max-w-none hidden lg:flex xl:w-1/2 rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0`}>
+      <div class={`${props.left ? "right-0" : "order-last"} w-[28rem] max-w-none hidden lg:flex xl:w-1/2 sm:w-[57rem] md:-ml-4 lg:-ml-0`}>
         <img
           src={props.img}
           alt={props.title}
-          width="100%"
-          height="100%"
+          class="object-contain"
         />
       </div>
     </div>

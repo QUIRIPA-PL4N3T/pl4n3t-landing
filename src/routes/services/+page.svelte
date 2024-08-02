@@ -3,6 +3,7 @@
   import Classes from "$components/services/classes.svelte";
   import Service from "$components/services/service.svelte";
   import { _ } from "svelte-i18n";
+  import { __servicesImages } from "$routes/+page";
 
   const masterClasses = [
     {
@@ -52,7 +53,14 @@
 </section>
 <section class="flex flex-col gap-2">
   {#each $_("home.features") as service, i}
-    <Service props={service} />
+    <Service props={{
+          title: service.title,
+          summary: service.summary,
+          how: service.how,
+          benefits: service.benefits,
+          left: (i + 1) % 2 === 0,
+          img: __servicesImages[i],
+    }} />
   {/each}
 </section>
 <Quote

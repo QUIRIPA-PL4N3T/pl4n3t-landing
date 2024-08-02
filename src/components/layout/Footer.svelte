@@ -7,9 +7,9 @@
     {
       title: $_('footer.company'),
       links: [
-        { label: $_('footer.contact'), link: "/about-us" },
-        { label: $_('footer.about_us'), link: "/blog" },
-        { label: $_('footer.blog'), link: "/contact" },
+        { label: $_('footer.contact'), link: "/contact" },
+        { label: $_('footer.about_us'), link: "/about-us" },
+        { label: $_('footer.blog'), link: "/blog" },
       ],
     },
     {

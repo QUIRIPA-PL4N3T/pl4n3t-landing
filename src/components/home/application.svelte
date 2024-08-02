@@ -1,4 +1,5 @@
 <script>
+  import { __servicesImages } from "$routes/+page";
   import Icon from "@iconify/svelte";
   import { _ } from "svelte-i18n";
 </script>
@@ -8,13 +9,13 @@
     class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6"
   >
     {#each $_("home.features") as { title, summary, img, how }, i}
-      <div class="mx-auto flex justify-between">
+      <div class="mx-auto flex justify-between items-center gap-4">
         <div
           class={`${(i + 1) % 2 === 0 ? "right-0" : "order-last"} hidden w-full h-full mb-4 mx-2 rounded-lg lg:mb-0 lg:flex`}
         >
           <img
-            class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src={img}
+            class="hidden  mb-4 rounded-lg lg:mb-0 lg:flex"
+            src={__servicesImages[i]}
             alt={title}
           />
         </div>

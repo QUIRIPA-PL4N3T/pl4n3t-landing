@@ -3,6 +3,21 @@
 export const prerender = true;
 
 
+import GestiónInformaciónGEI from "$lib/images/services/1.png";
+import DesarrolloInventarioGEI from "$lib/images/services/2.png";
+import DecarbonisationPlan from "$lib/images/services/3.png";
+import NetZero from "$lib/images/services/4.png";
+import CarbonNeutralitySupport from "$lib/images/services/5.png";
+
+
+export const __servicesImages = [
+    GestiónInformaciónGEI,
+    DesarrolloInventarioGEI,
+    DecarbonisationPlan,
+    NetZero,
+    CarbonNeutralitySupport,
+]
+
 export const __membership = {
     "id": 0,
     "name": "string",
