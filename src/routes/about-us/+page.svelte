@@ -5,44 +5,52 @@
   import juan from "$lib/images/team/juan.webp";
   import sebastian from "$lib/images/team/sebastian.webp";
   import Icon from "@iconify/svelte";
-  import { _ } from 'svelte-i18n'
-  
+  import { _ } from "svelte-i18n";
+
   const corpValues = [
     {
-      color: "text-blue-700",
-      value: $_('about_us.integrity'),
+      summary: $_("about_us.commitment_summary"),
+      color: "text-red-700",
+      value: $_("about_us.commitment"),
     },
     {
-      color: "text-red-700",
-      value: $_('about_us.commitment'),
+      summary: $_("about_us.collaboration_summary"),
+      color: "text-orange-700",
+      value: $_("about_us.collaboration"),
     },
-    { color: "text-green-700", value: $_('about_us.respect') },
-    { color: "text-orange-700", value: $_('about_us.collaboration') },
-    { color: "text-gray-400", value: $_('about_us.transparency') },
-    { color: "text-purple-700", value: $_('about_us.innovation') },
+    {
+      summary: $_("about_us.transparency_summary"),
+      color: "text-gray-400",
+      value: $_("about_us.transparency"),
+    },
+    {
+      summary: $_("about_us.innovation_summary"),
+      color: "text-purple-700",
+      value: $_("about_us.innovation"),
+    },
   ];
 
   const team = [
     {
-      name: 'Maria Camila fajardo',
-      charge: $_('position.ceo'),
+      name: "Maria Camila fajardo",
+      charge: $_("position.ceo"),
       photo: camila,
     },
     {
-      name: 'Juan Sebastian Munoz',
-      charge: $_('position.counter'),
+      name: "Juan Sebastian Munoz",
+      charge: $_("position.counter"),
       photo: juan,
     },
     {
-      name: 'Juan Sebastian Torres',
-      charge: $_('position.developer'),
+      name: "Juan Sebastian Torres",
+      charge: $_("position.developer"),
       photo: sebastian,
     },
-  ]
+  ];
 </script>
 
 <svelte:head>
-  <title>{$_('nav.about_us')}</title>
+  <title>{$_("nav.about_us")}</title>
   <meta name="description" content="About this app" />
 </svelte:head>
 
@@ -59,7 +67,7 @@
         >
           <h1 class="text-8xl font-bold text-gray-300">Pl4n3t</h1>
           <h1 class="text-7xl text-gray-300">Quiripa</h1>
-          <small class="font-bold mt-2">{$_('about_us.founded')} en 2023</small>
+          <small class="font-bold mt-2">{$_("about_us.founded")} en 2023</small>
 
           <a href="#funtation">
             <Icon
@@ -84,13 +92,25 @@
 <div class="container mx-12 flex flex-wrap items-center justify-center">
   <div class="flex flex-wrap gap-10 justify-center items-center w-full">
     <div class="lg:w-1/3 md:w-full w-full flex flex-col gap-4">
-      <h2 class="font-sans font-semibold text-3xl">{$_('about_us.vision')}</h2>
+      <h2 class="font-sans font-semibold text-3xl">
+        {$_("about_us.about_us")}
+      </h2>
       <p>
-        {@html $_('about_us.vision_summary')}
+        {@html $_("about_us.about_us_summary")}
       </p>
-      <h2 class="font-sans font-semibold text-3xl">{$_('about_us.mission')}</h2>
+      <h2 class="font-sans font-semibold text-3xl">{$_("about_us.vision")}</h2>
       <p>
-        {@html $_('about_us.mission_summary')}
+        {@html $_("about_us.vision_summary")}
+      </p>
+      <h2 class="font-sans font-semibold text-3xl">{$_("about_us.mission")}</h2>
+      <p>
+        {@html $_("about_us.mission_summary")}
+      </p>
+      <h2 class="font-sans font-semibold text-3xl">
+        {$_("about_us.value_proposal")}
+      </h2>
+      <p>
+        {@html $_("about_us.mission?_summary")}
       </p>
     </div>
     <div class="lg:w-1/3 md:w-full w-full mb-4 mx-2 rounded-lg lg:mb-0 lg:flex">
@@ -104,18 +124,19 @@
 </div>
 <section class="bg-gray-50 dark:bg-gray-800">
   <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-    <h5 class="text-xl font-medium">{$_('about_us.values')}</h5>
+    <h5 class="text-xl font-medium">{$_("about_us.values")}</h5>
 
     <div class="flex flex-wrap justify-center items-center gap-4 p-8">
-      {#each corpValues as { value, color }}
+      {#each corpValues as { value, color, summary }}
         <div
-          class={`max-w-md w-[200px] shadow-md rounded-lg flex flex-col border ${color}`}
+          class={`max-w-md w-[400px] p-2 shadow-md rounded-lg flex flex-col border ${color}`}
         >
           <span class="text-md font-semibold my-2">{value}</span>
           <Icon
             icon="mdi:sprout-outline"
-            class={`size-12 mx-auto mb-3 text-${color}`}
+            class='size-12 mx-auto mb-3'
           />
+          <p class="text-md font-semibold my-2">{summary}</p>
         </div>
       {/each}
     </div>
@@ -124,21 +145,32 @@
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">{$_('about_us.team.title')}</h1>
+      <h1
+        class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest"
+      >
+        {$_("about_us.team.title")}
+      </h1>
     </div>
     <div class="flex flex-wrap justify-center -m-4">
       {#each team as { name, photo, charge }}
-      <div class="p-4 max-w-md">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4" src={photo}>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">{name}</h2>
-            <h3 class="text-gray-500 mb-3">{charge}</h3>
+        <div class="p-4 max-w-md">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left"
+          >
+            <img
+              alt="team"
+              class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4"
+              src={photo}
+            />
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">
+                {name}
+              </h2>
+              <h3 class="text-gray-500 mb-3">{charge}</h3>
+            </div>
           </div>
         </div>
-      </div>
-    {/each}
-
+      {/each}
     </div>
   </div>
 </section>

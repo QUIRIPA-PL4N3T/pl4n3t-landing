@@ -188,7 +188,15 @@
       "title": "Our Team"
     },
     "vision": "Vision",
-    "mission": "Mission"
+    "mission": "Mission",
+    "about_us": "About us",
+    "about_us_summary": "We are leaders in sustainability, integrating science, technology and innovation to offer strategic solutions for managing sustainability for organizations. We are dedicated to empowering companies to turn environmental challenges into opportunities for growth and leadership.",
+    "value_proposal": "Value proposal",
+    "value_proposal_summary": "Our value proposition focuses on boosting the sustainability and competitiveness of our clients through tools and strategies for managing their carbon and water footprints. We offer comprehensive solutions based on technology and innovation, designed to address today's most critical environmental challenges.",
+    "commitment_summary": "Determined to forge a sustainable future, we strive to generate a positive impact on the environment and communities, acting with passion and firm commitment in each solution we develop.",
+    "collaboration_summary": "We believe in the power of collaboration to achieve our sustainability goals. We work hand in hand with our collaborators and stakeholders to create synergies that maximize the positive impact of our solutions",
+    "transparency_summary": "We are committed to open and honest communication both within our organization and with our stakeholders, fostering trust through clarity in all our operations. Transparency guides our ethical behavior and supports our responsibility toward sustainability.",
+    "innovation_summary": "Innovation is at the heart of everything we do. We constantly seek to develop comprehensive solutions that address environmental challenges in effective and innovative ways."
   },
   "newsletter": {
     "title": "Subscribe to our newsletter.",

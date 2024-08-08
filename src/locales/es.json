@@ -188,7 +188,15 @@
       "title": "Nuestro Equipo"
     },
     "vision": "Vision",
-    "mission": "Mision"
+    "mission": "Mision",
+    "about_us": "Sobre nosotros",
+    "about_us_summary": "Somos líderes en sostenibilidad, integramos la ciencia, la tecnología y la innovación para ofrecer soluciones estratégicas para la gestión de la sostenibilidad para las organizaciones. Nos dedicamos a empoderar a las empresas para que conviertan los desafíos ambientales en oportunidades de  crecimiento y liderazgo.",
+    "value_proposal": "Propuesrta de valor",
+    "value_proposal_summary": "Nuestra propuesta de valor se centra en impulsar la sostenibilidad competitividad de nuestros clientes mediante herramientas y estrategias para la gestión de su  huella de carbono y huella hídrica. ofrecemos soluciones integrales basadas en tecnología e innovación, diseñadas para abordar los desafíos ambientales más críticos de la actualidad.",
+    "commitment_summary": "Decididos a forjar un futuro sostenible, nos esforzamos por generar un impacto positivo en el medio ambiente y en las comunidades, actuando con pasión y firme compromiso en cada solución que desarrollamos.",
+    "collaboration_summary": "Creemos en el poder de la colaboración para alcanzar nuestros objetivos de sostenibilidad. Trabajamos de la mano con nuestros colaboradores y stakeholders para crear sinergias que maximicen el impacto positivo de nuestras soluciones",
+    "transparency_summary": "Nos comprometemos a mantener una comunicación abierta y honesta tanto dentro de nuestra organización como con nuestros stakeholders, fomentando la confianza a través de la claridad en todas nuestras operaciones. La transparencia guía nuestro comportamiento ético y respalda nuestra responsabilidad hacia la sostenibilidad.",
+    "innovation_summary": "La innovación está en el corazón de todo lo que hacemos. Buscamos constantemente desarrollar soluciones integrales que aborden los retos ambientales de manera efectiva y novedosa."
   },
   "newsletter": {
     "title": "Subscribete a nuestro newsletter.",
