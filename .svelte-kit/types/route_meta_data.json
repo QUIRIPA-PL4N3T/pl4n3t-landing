@@ -1,0 +1,10 @@
+{
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/about-us": [],
+	"/blog": [],
+	"/contact": [],
+	"/privacy-policy": [],
+	"/services": []
+}
