@@ -240,5 +240,7 @@
       "success": "Your message has been sent!",
       "error": "An error has occurred, please wait a moment"
     }
-  }
+  },
+  "not_found": "Page not found",
+  "back": "home"
 }

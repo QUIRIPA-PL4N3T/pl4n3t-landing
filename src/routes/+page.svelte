@@ -2,7 +2,7 @@
 	import QuoteAvatar from '$components/global/quote-avatar.svelte';
   import Newsletter from "$components/global/newsletter.svelte";
   import Application from "$components/home/application.svelte";
-  import Customer from "$components/home/customer.svelte";
+  // import Customer from "$components/home/customer.svelte";
   import GlobalData from "$components/home/global-data.svelte";
   import Hero from "$components/home/hero.svelte";
   import camila from "$lib/images/team/camila.webp";
@@ -17,7 +17,7 @@
 
 <section>
   <Hero />
-  <Customer />
+  <!-- <Customer /> -->
   <Application />
   <GlobalData />
   <Memberships />

@@ -63,5 +63,12 @@
       <p class="mb-4 font-semibold text-xl">{$_("contact.title")}</p>
       <Contact />
     </div>
+    <div id="request-date" class="col-span-2 w-full flex flex-wrap justify-center items-center">
+      <h1 class="text-4xl font-bold">{$_("request_date")}</h1>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget w-full" data-url="https://calendly.com/desarrollo-pl4n3t/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="display:block:370px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
+    </div>
   </div>
 </div>

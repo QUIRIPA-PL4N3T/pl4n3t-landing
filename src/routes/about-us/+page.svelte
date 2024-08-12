@@ -92,25 +92,25 @@
 <div class="container mx-12 flex flex-wrap items-center justify-center">
   <div class="flex flex-wrap gap-10 justify-center items-center w-full">
     <div class="lg:w-1/3 md:w-full w-full flex flex-col gap-4">
-      <h2 class="font-sans font-semibold text-3xl">
+      <h2 class="font-sans font-semibold text-primary-dark text-3xl">
         {$_("about_us.about_us")}
       </h2>
       <p>
         {@html $_("about_us.about_us_summary")}
       </p>
-      <h2 class="font-sans font-semibold text-3xl">{$_("about_us.vision")}</h2>
+      <h2 class="font-sans font-semibold text-primary-dark text-3xl">{$_("about_us.vision")}</h2>
       <p>
         {@html $_("about_us.vision_summary")}
       </p>
-      <h2 class="font-sans font-semibold text-3xl">{$_("about_us.mission")}</h2>
+      <h2 class="font-sans font-semibold text-primary-dark text-3xl">{$_("about_us.mission")}</h2>
       <p>
         {@html $_("about_us.mission_summary")}
       </p>
-      <h2 class="font-sans font-semibold text-3xl">
+      <h2 class="font-sans font-semibold text-primary-dark text-3xl">
         {$_("about_us.value_proposal")}
       </h2>
       <p>
-        {@html $_("about_us.mission?_summary")}
+        {@html $_("about_us.mission_summary")}
       </p>
     </div>
     <div class="lg:w-1/3 md:w-full w-full mb-4 mx-2 rounded-lg lg:mb-0 lg:flex">
@@ -124,12 +124,12 @@
 </div>
 <section class="bg-gray-50 dark:bg-gray-800">
   <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-    <h5 class="text-xl font-medium">{$_("about_us.values")}</h5>
+    <h5 class="text-xl font-bold">{$_("about_us.values")}</h5>
 
     <div class="flex flex-wrap justify-center items-center gap-4 p-8">
       {#each corpValues as { value, color, summary }}
         <div
-          class={`max-w-md w-[400px] p-2 shadow-md rounded-lg flex flex-col border ${color}`}
+          class={`max-w-md w-[400px] p-2 rounded-lg flex flex-col`}
         >
           <span class="text-md font-semibold my-2">{value}</span>
           <Icon
@@ -159,7 +159,7 @@
           >
             <img
               alt="team"
-              class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4"
+              class="flex-shrink-0 rounded-lg w-32 h-32 object-center sm:mb-0 mb-4"
               src={photo}
             />
             <div class="flex-grow sm:pl-8">

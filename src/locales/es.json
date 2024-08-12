@@ -240,5 +240,7 @@
       "success": "Se ha enviado tu mensaje!",
       "error": "Ha ocurrido un error, espera un momento"
     }
-  }
+  },
+  "not_found": "Pagina no encontrada",
+  "back": "home"
 }

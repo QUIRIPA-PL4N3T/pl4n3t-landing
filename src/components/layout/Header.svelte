@@ -1,13 +1,14 @@
 <script>
   import logo from "$lib/images/logo.png";
   import { _ } from 'svelte-i18n'
+  import { page } from '$app/stores';  
 
   export const menu = [
-    { label: $_('nav.services'), link: "services" },
-    { label: $_('nav.about_us'), link: "about-us" },
-    // { label: $_('nav.blog'), link: "blog" },
-    { label: $_('nav.contact'), link: "contact" },
-  ];
+    { label: $_('nav.services'), link: "/services" },
+    { label: $_('nav.about_us'), link: "/about-us" },
+    // { label: $_('nav.blog'), link: "/blog" },
+    { label: $_('nav.contact'), link: "/contact" },
+  ];  
 </script>
 
 <header class=" w-full px-6">
@@ -16,7 +17,7 @@
       class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto"
     >
       <a href="/" class="flex items-center">
-        <img src={logo} class="h-[80px] mr-3 sm:h-[80px]" alt="PL4N3T Logo" />
+        <img src={logo} class="w-32 h-24 object-contain" alt="PL4N3T Logo" />
       </a>
       <div class="flex">
         <div class="flex items-center">
@@ -37,7 +38,7 @@
               <li>
                 <a
                   href={link}
-                  class="block py-2 pl-3 pr-4 hover:text-primary"
+                  class={`block py-2 pl-3 pr-4 hover:text-primary ${$page.url.pathname === link ? 'text-primary' : ''}`}
                   aria-current="page">{label}</a
                 >
               </li>
