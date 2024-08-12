@@ -1,5 +1,5 @@
 {
-    "root": "dist",
+    "root": ".svelte-kit",
     "clean_urls": false,
     "routes": {
         "/**": "index.html"
